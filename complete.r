@@ -18,5 +18,5 @@ complete<- function(directory="C:/Users/getak/Documents/specdata",id)
                 df[dfrow,]<-c(j,counter)
                 dfrow<-dfrow+1
                 }
-        print(df)
+        return(df)
         }
